@@ -1,0 +1,26 @@
+#include <stdio.h>
+/**
+ * main - Entry poit
+ * Return: 0 (success)
+*/
+int main(void)
+{
+char x;
+
+int y;
+
+x = 'a';
+y = 0;
+while
+(y < 10) {
+putchar(y + '0');
+y++;
+}
+while
+(x <= 'a') {
+putchar(x);
+x++;
+}
+putchar('\n');
+return (0);
+}
