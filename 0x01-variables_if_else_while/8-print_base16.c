@@ -17,7 +17,7 @@ putchar(y + '0');
 y++;
 }
 while
-(x <= 'a') {
+(x <= 'f') {
 putchar(x);
 x++;
 }
