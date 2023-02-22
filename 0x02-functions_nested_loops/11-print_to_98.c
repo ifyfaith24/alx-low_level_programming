@@ -3,20 +3,29 @@
 /**
  * print_to_98 - print all numbers from input to 98
  * @n: The starting number
- * Return: 0 or 1
+ * Return: 0
  */
 void print_to_98(int n)
 {
+if (n > 98)
+{
 while (n >= 98)
 {
-printf("%i, ", n);
-n++;
-}
-while (n > 98)
-{
-printf("%i, ", n);
+printf("%d", n);
+if (n != 98)
+printf(",");
 n--;
 }
-printf("98");
+}
+else
+{
+while (n <= 98)
+{
+printf("%d", n);
+if (n != 98)
+printf(",");
+n++;
+}
+}
 putchar('\n');
 }
